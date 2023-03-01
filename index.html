@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis pendientes</title>
+<!-------------------------------------------------------------------ESTILOS--------------------->
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="perfil">
+            <div id="fechaJS">fecha</div>
+            <h1>Mis pendientes</h1>
+            <p>«No te preocupes, <span class="ocupate">ocúpate</span>»</p>
+        </div>
+    
+        <div class="agregar-tarea">
+            <input type="text" id="input" placeholder="agregar una tarea">
+            <i id="boton-enterJS"class="fas fa-plus-circle"></i>
+        </div>   
+        
+        <div class="seccion-tarea">
+            <h3>Quiero hacer:</h3>  
+            <ul id="listaJS">
+                <!--Hacerlo con JS-->
+                   <li id="elementoJS">
+                    <i class="far fa-circle co" data="realizado" id="0"></i>
+                    <p class="text">Ir al supermercado</p>
+                    <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+                </li>
+                <li id="elementoJS">
+                    <i class="far fa-circle co" data="realizado" id="0"></i>
+                    <p class="text">Terminar proyecto</p>
+                    <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+                </li> 
+                <!--Hacerlo con JS-->
+            </ul>
+        </div>   
+    </div>
+<!--------------------------------------------------------------------JAVASCRIPT----------------->
+<script src="main.js"></script>
+</body>
+</html>
