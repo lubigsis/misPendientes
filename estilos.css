@@ -27,7 +27,7 @@ body {
     max-width: 80%;
     width: 400px;
     height: 100vh;
-    margin: 10px auto;
+    margin: 20px auto;
   /*  border: 2px solid yellow;*/
     flex-wrap: wrap;
 }
@@ -54,8 +54,8 @@ body {
 
 .perfil p .ocupate{
     color: rgb(3, 3, 99);
-    font-size: 23px;
-
+    font-size: 1.3em;
+    letter-spacing: 2px;
 }
 
 #fecha {
@@ -100,7 +100,7 @@ body {
 }
 
 .agregar-tarea i{
-    font-size: 50px;
+    font-size: 40px;
     color: var(--blue-dark);
 
 }
